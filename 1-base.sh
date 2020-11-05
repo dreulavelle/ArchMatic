@@ -24,7 +24,7 @@ PKGS=(
     # --- Setup Desktop
         'awesome'               # Awesome Desktop
         'xfce4-power-manager'   # Power Manager 
-        'rofi'                  # Menu System
+        'dmenu'                  # Menu System
         'picom'                 # Translucent Windows
         'xclip'                 # System Clipboard
         'gnome-polkit'          # Elevate Applications
@@ -58,12 +58,12 @@ PKGS=(
         'pulseaudio-bluetooth'  # Bluetooth support for PulseAudio
     
     # --- Printers
-        'cups'                  # Open source printer drivers
-        'cups-pdf'              # PDF support for cups
-        'ghostscript'           # PostScript interpreter
-        'gsfonts'               # Adobe Postscript replacement fonts
-        'hplip'                 # HP Drivers
-        'system-config-printer' # Printer setup  utility
+       # 'cups'                  # Open source printer drivers
+       # 'cups-pdf'              # PDF support for cups
+       # 'ghostscript'           # PostScript interpreter
+       # 'gsfonts'               # Adobe Postscript replacement fonts
+       # 'hplip'                 # HP Drivers
+       # 'system-config-printer' # Printer setup  utility
 )
 
 for PKG in "${PKGS[@]}"; do
