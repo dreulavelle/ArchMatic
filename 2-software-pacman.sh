@@ -22,7 +22,7 @@ PKGS=(
     'cronie'                # cron jobs
     'curl'                  # Remote content retrieval
     'file-roller'           # Archive utility
-    'gtop'                  # System monitoring via terminal
+    # 'gtop'                  # System monitoring via terminal
     'gufw'                  # Firewall manager
     'hardinfo'              # Hardware info app
     'htop'                  # Process viewer
@@ -38,7 +38,7 @@ PKGS=(
     'unrar'                 # RAR compression program
     'unzip'                 # Zip compression program
     'wget'                  # Remote content retrieval
-    'terminator'            # Terminal emulator
+    'alacritty'             # Terminal emulator
     'vim'                   # Terminal Editor
     'zenity'                # Display graphical dialog boxes via shell scripts
     'zip'                   # Zip compression program
@@ -66,41 +66,41 @@ PKGS=(
 
     # GENERAL UTILITIES ---------------------------------------------------
 
-    'flameshot'             # Screenshots
-    'freerdp'               # RDP Connections
-    'libvncserver'          # VNC Connections
+    'Xfce4-screenshooter'   # Screenshots
+   # 'freerdp'               # RDP Connections
+   # 'libvncserver'          # VNC Connections
     'nautilus'              # Filesystem browser
-    'remmina'               # Remote Connection
-    'veracrypt'             # Disc encryption utility
+   # 'remmina'               # Remote Connection
+   # 'veracrypt'             # Disc encryption utility
     'variety'               # Wallpaper changer
 
     # DEVELOPMENT ---------------------------------------------------------
 
-    'gedit'                 # Text editor
+   # 'gedit'                 # Text editor
     'clang'                 # C Lang compiler
     'cmake'                 # Cross-platform open-source make system
     'code'                  # Visual Studio Code
-    'electron'              # Cross-platform development using Javascript
+   # 'electron'              # Cross-platform development using Javascript
     'git'                   # Version control system
     'gcc'                   # C/C++ compiler
     'glibc'                 # C libraries
-    'meld'                  # File/directory comparison
-    'nodejs'                # Javascript runtime environment
-    'npm'                   # Node package manager
+   # 'meld'                  # File/directory comparison
+   # 'nodejs'                # Javascript runtime environment
+   # 'npm'                   # Node package manager
     'python'                # Scripting language
     'yarn'                  # Dependency management (Hyper needs this)
 
     # MEDIA ---------------------------------------------------------------
 
-    'kdenlive'              # Movie Render
-    'obs-studio'            # Record your screen
-    'celluloid'             # Video player
+   # 'kdenlive'              # Movie Render
+   # 'obs-studio'            # Record your screen
+   # 'celluloid'             # Video player
     
     # GRAPHICS AND DESIGN -------------------------------------------------
 
-    'gcolor2'               # Colorpicker
-    'gimp'                  # GNU Image Manipulation Program
-    'ristretto'             # Multi image viewer
+    # 'gcolor2'               # Colorpicker
+    # 'gimp'                  # GNU Image Manipulation Program
+    # 'ristretto'             # Multi image viewer
 
     # PRODUCTIVITY --------------------------------------------------------
 
