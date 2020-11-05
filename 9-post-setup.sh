@@ -110,11 +110,11 @@ sudo systemctl enable --now bluetooth.service
 # echo -e "\nEnabling the cups service daemon so we can print"
 
 # systemctl enable --now org.cups.cupsd.service
-# sudo ntpd -qg
-# sudo systemctl enable --now ntpd.service
-# sudo systemctl disable dhcpcd.service
-# sudo systemctl stop dhcpcd.service
-# sudo systemctl enable --now NetworkManager.service
+sudo ntpd -qg
+sudo systemctl enable --now ntpd.service
+sudo systemctl disable dhcpcd.service
+sudo systemctl stop dhcpcd.service
+sudo systemctl enable --now NetworkManager.service
 
 echo "
 ###############################################################################
