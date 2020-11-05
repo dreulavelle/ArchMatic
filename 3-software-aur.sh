@@ -20,13 +20,13 @@ PKGS=(
     # UTILITIES -----------------------------------------------------------
 
     'i3lock-fancy'              # Screen locker
-    'synology-drive'            # Synology Drive
+   # 'synology-drive'            # Synology Drive
     'freeoffice'                # Office Alternative
     
     # MEDIA ---------------------------------------------------------------
 
-    'screenkey'                 # Screencast your keypresses
-    'lbry-app-bin'              # LBRY Linux Application
+   # 'screenkey'                 # Screencast your keypresses
+   # 'lbry-app-bin'              # LBRY Linux Application
 
     # COMMUNICATIONS ------------------------------------------------------
 
